@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGPViewHelper_Example' do
+  pod 'LGPViewHelper', :path => '../'
+
+  target 'LGPViewHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
