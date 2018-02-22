@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LGPViewHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of LGPViewHelper.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/2997559549@qq.com/LGPViewHelper'
+  s.homepage         = 'https://github.com/LgHU/Helper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2997559549@qq.com' => 'huliguo@yixia.com' }
-  s.source           = { :git => 'https://github.com/2997559549@qq.com/LGPViewHelper.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LgHU/Helper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LGPViewHelper/Classes/**/*'
+  s.source_files = 'LGPViewHelper/Classes/'
   
   # s.resource_bundles = {
   #   'LGPViewHelper' => ['LGPViewHelper/Assets/*.png']

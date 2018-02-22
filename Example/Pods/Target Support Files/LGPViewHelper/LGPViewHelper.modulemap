@@ -1,0 +1,6 @@
+framework module LGPViewHelper {
+  umbrella header "LGPViewHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
