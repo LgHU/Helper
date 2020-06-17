@@ -43,4 +43,9 @@
     return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:1.0f];
 }
 
++ (UIColor*)randomColor
+{
+   return [UIColor colorWithHue:drand48() saturation:1.0 brightness:1.0 alpha:1.0];
+}
+
 @end

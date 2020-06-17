@@ -16,5 +16,6 @@
  @return 颜色
  */
 + (UIColor*)colorWithHexCode:(NSString*)hexString;
++ (UIColor*)randomColor;
 
 @end
